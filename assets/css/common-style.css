@@ -407,7 +407,7 @@ button {
     letter-spacing: 2px;
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ddd;
+    -webkit-text-stroke-color: var(--primary-color);
 }
 
 .preloader-text span {
@@ -416,7 +416,7 @@ button {
 }
 
 .preloader-text span:before {
-    color: var(--bg-dark);
+    color: var(--primary-color);
     position: absolute;
     top: 0;
     left: 0;

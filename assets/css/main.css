@@ -1264,7 +1264,7 @@
 
 .service-thumb {
   overflow: hidden;
-  height: 35rem; /* Set fixed height for uniformity */
+  height: 25rem; /* Set fixed height for uniformity */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3191,7 +3191,8 @@
 
 /*Copyright Area*/
 .copyright-area {
-    background-color: var(--bg-dark);
+    background-color: #365545ab;
+    background-image: url(../img/patternbg.png);
     color: var(--white-color);
     padding: 25px 0;
     text-align: center;

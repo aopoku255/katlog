@@ -515,6 +515,9 @@
     .header-menu-wrap ul li {
         margin-right: 20px;
     }
+    .image-color{
+         filter: grayscale(100%);
+    }
 }
 
 .mobile-navigation-menu {
@@ -524,6 +527,9 @@
 @media (max-width: 992px) {
     .top-header {
         display: none;
+    }
+    .image-color{
+         filter: grayscale(100%);
     }
 
     .header-menu-wrap {
@@ -720,6 +726,9 @@
         left: -1px;
         top: -1px;
     }
+    .image-color{
+         filter: grayscale(100%);
+    }
 
     .main-header-info:after {
         transform: skewX(41.5deg);
@@ -729,6 +738,9 @@
 @media (max-width: 600px) {
     .mobile-navigation-menu {
         width: 80%;
+    }
+    .image-color{
+         filter: grayscale(100%);
     }
 }
 

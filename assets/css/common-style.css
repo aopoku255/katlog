@@ -1162,7 +1162,7 @@ button {
 .running-text ul li:before {
     font-family: "Font Awesome 6 Pro";
     font-weight: 300;
-    /* content: "\f2dc"; */
+    content: "\f49e";
     position: absolute;
     right: -40px;
     top: 50%;

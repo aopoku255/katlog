@@ -342,6 +342,10 @@
         z-index: 1;
     }
 
+    .image-color{
+         filter: grayscale(100%);
+    }
+
     .header-menu-wrap li ul {
         background-color: var(--white-color);
         box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 10%);

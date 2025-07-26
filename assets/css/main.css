@@ -1019,7 +1019,7 @@
     position: absolute;
     bottom: 2rem;
     left: 5px;
-    color: #365545;
+    color: #000000cf;
 }
 
 .promo-content p {
@@ -1865,11 +1865,11 @@
 
 .promo-item-wrapper .col-lg-3:nth-child(3) .promo-item {
     background-color: white;
-    background-image: url(../img/Shopping-Bag-Mockup-Dark.png);
+    background-image: url(../img/Cupcakebox\ \(24st\).png);
 }
 .promo-item-wrapper .col-lg-3:nth-child(4) .promo-item {
     /* background-color: var(--primary-color); */
-    background-image: url(../img/petbox.png);
+    background-image: url(../img/brownpaper.png);
 }
 
 .promo-item-wrapper .col-lg-4:nth-child(2) .promo-item i {

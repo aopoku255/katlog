@@ -1176,6 +1176,21 @@ button {
     gap: 1rem;
 }
 
+.partner-logo {
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+  display: block;
+}
+
+.text-anim li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px; /* Adjust based on logo size */
+}
+
+
 .scroller[data-animated="true"] .scroller__inner {
     width: max-content;
     flex-wrap: nowrap;

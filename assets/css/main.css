@@ -1016,6 +1016,9 @@
     line-height: 1;
     font-weight: 700;
     margin-bottom: 5px;
+    position: absolute;
+    bottom: 1rem;
+    left: 5px;
 }
 
 .promo-content p {
@@ -1786,7 +1789,7 @@
     08 CTA Section
 ====================================================*/
 .cta-wrapper {
-    background-image: url(../img/content-bg-3.jpg);
+    background-image: url(../img/biomorphbanner.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1800,7 +1803,7 @@
 
 @media (min-width:993px) {
     .cta-wrapper .cta-men {
-        background-image: url(../img/delivery-men-2.png);
+        /* background-image: url(../img/delivery-men-2.png); */
         background-repeat: no-repeat;
         background-position: right bottom;
         background-size: contain;
@@ -1833,15 +1836,19 @@
 
 /*Promo Item*/
 .promo-item-wrapper .promo-item {
-    background-color: var(--bg-grey);
-    background-image: url(../img/truck-pattern.png);
+    background-color: white;
+    background-image: url(../img/BOTH\ PACK.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 50%;
+    background-position: center center;
+    background-size: contain;
     display: flex;
     align-items: center;
     column-gap: 30px;
+    
     padding: 40px;
+   
+    height: 20rem;
+    margin-bottom: 5px;
 }
 
 .promo-section.move-top {
@@ -1850,23 +1857,27 @@
     z-index: 2;
 }
 
-.promo-item-wrapper .col-lg-4:nth-child(2) .promo-item {
-    background-color: var(--primary-color);
-    background-image: url(../img/ship-pattern.png);
+.promo-item-wrapper .col-lg-3:nth-child(2) .promo-item {
+    background-color:var(--primary-color);
+    background-image: url(../img/Free_Delivery_Bag_Mockup_1.png);
 }
 
-.promo-item-wrapper .col-lg-4:nth-child(3) .promo-item {
-    background-color: var(--bg-dark);
-    background-image: url(../img/plane-pattern.png);
+.promo-item-wrapper .col-lg-3:nth-child(3) .promo-item {
+    background-color: white;
+    background-image: url(../img/Shopping-Bag-Mockup-Dark.png);
+}
+.promo-item-wrapper .col-lg-3:nth-child(4) .promo-item {
+    background-color: var(--primary-color);
+    background-image: url(../img/petbox.png);
 }
 
 .promo-item-wrapper .col-lg-4:nth-child(2) .promo-item i {
-    color: var(--white-color);
+    color: white;
 }
 
 .promo-item-wrapper .col-lg-4:nth-child(3) .promo-item .promo-content h3,
 .promo-item-wrapper .col-lg-4:nth-child(2) .promo-item .promo-content h3 {
-    color: var(--white-color);
+    color: white;
 }
 
 .promo-item-wrapper .col-lg-4:nth-child(3) .promo-item .promo-content p,
@@ -1877,6 +1888,10 @@
 .promo-item-wrapper .promo-item i {
     color: var(--primary-color);
     font-size: 50px;
+}
+
+.promo-item{
+    position: relative;
 }
 
 /*===================================================

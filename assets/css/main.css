@@ -742,6 +742,7 @@
     .image-color{
          filter: grayscale(100%);
     }
+   
 }
 
 /* Search Box */
@@ -1020,6 +1021,13 @@
     bottom: 2rem;
     left: 5px;
     color: #000000cf;
+}
+
+@media (max-width: 467px){
+    .promo-content h3{
+        left: 3rem;
+        bottom: 2rem;
+    }
 }
 
 .promo-content p {
@@ -1304,7 +1312,7 @@
     left: 2rem;
     bottom: 1rem;
     font-size: 2rem;
-    color: #4b4a4a;
+   
 }
 
 
@@ -2428,6 +2436,8 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+
+
 }
 
 @media (min-width: 993px) {
@@ -2721,6 +2731,8 @@
     .accordion-button {
         padding-right: 50px;
     }
+
+
 }
 
 
